@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nf:module xmlns:nf="http://www.NetFPGA.org/NF2_register_system" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.NetFPGA.org/NF2_register_system NF2_register_system.xsd ">
+	<nf:name>simulacao</nf:name>
+	<nf:prefix>simulacao</nf:prefix>
+	<nf:location>udp</nf:location>
+	<nf:description>Registers for simul</nf:description>
+	<nf:blocksize>512</nf:blocksize>
+	<nf:registers>
+		<nf:register>
+		  <nf:name>rd_1_data</nf:name>
+			<nf:description>Dados lidos sram</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>rd_0_data</nf:name>
+			<nf:description>Dados lidos sram</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>tuple_PSRC_gen</nf:name>
+			<nf:description>source port</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>tuple_PDST_gen</nf:name>
+			<nf:description>dest port</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>tuple_IPSRC_gen</nf:name>
+			<nf:description>source ip</nf:description>
+			<nf:type>ip_addr</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>tuple_IPDST_gen</nf:name>
+			<nf:description>dest ip</nf:description>
+			<nf:type>ip_addr</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>tuple_ACKNUM_gen</nf:name>
+			<nf:description>acknowledgement number</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+      <nf:register>
+		  <nf:name>num_leitura_gen</nf:name>
+			<nf:description>Numero leitura em SRAM</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>num_escrita_gen</nf:name>
+			<nf:description>Numero escrita em SRAM</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>num_ACK_pkts_gen</nf:name>
+			<nf:description>numero de pacotes TCP processados</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>num_ICMP_pkts_gen</nf:name>
+			<nf:description>numero de pacotes ICMP processados</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>num_UDP_pkts_gen</nf:name>
+			<nf:description>numero de pacotes UDP processados</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>num_TCP_pkts_gen</nf:name>
+			<nf:description>numero de pacotes TCP processados</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>num_pkts_gen</nf:name>
+			<nf:description>numero de pacotes processados</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+	</nf:registers>
+	<nf:constants>
+	</nf:constants>
+	<nf:types>		
+	</nf:types>
+</nf:module>

@@ -1,0 +1,56 @@
+Source port:            50
+
+Destiny port:            3f2
+
+Source IP:            c0a86514
+
+Destiny IP:            dc00e502
+
+Acknowledgement number:            33
+
+NUM ESCRITA:            1
+
+NUM LEITURA:            0
+
+RD_1_DATA:            0
+
+RD_0_DATA:            0
+
+Num pkts ICMP processed:            0
+
+Num pkts UDP processed:            0
+
+Num pkts ACK processed:            0
+
+Num pkts TCP processed:            1
+
+Num pkts processed:            1
+
+Num pkts received on port 0:           0
+Num pkts dropped (rx queue 0 full):    0
+Num pkts dropped (bad fcs q 0):        0
+Num bytes received on port 0:          0
+Num pkts sent from port 0:             1
+Num bytes sent from port 0:            64
+
+Num pkts received on port 1:           0
+Num pkts dropped (rx queue 1 full):    0
+Num pkts dropped (bad fcs q 1):        0
+Num bytes received on port 1:          0
+Num pkts sent from port 1:             0
+Num bytes sent from port 1:            0
+
+Num pkts received on port 2:           0
+Num pkts dropped (rx queue 2 full):    0
+Num pkts dropped (bad fcs q 2):        0
+Num bytes received on port 2:          0
+Num pkts sent from port 2:             0
+Num bytes sent from port 2:            0
+
+Num pkts received on port 3:           0
+Num pkts dropped (rx queue 3 full):    0
+Num pkts dropped (bad fcs q 3):        0
+Num bytes received on port 3:          0
+Num pkts sent from port 3:             0
+Num bytes sent from port 3:            0
+
